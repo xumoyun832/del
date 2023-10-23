@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenir{
+    width: 80%;
+    height: 500px;
+    background-color: blue;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+@media only screen and (max-width:500px) {
+    .contenir{
+        flex-direction: column;
+        height: 1000px;
+    }
+}
